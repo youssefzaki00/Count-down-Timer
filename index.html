@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>countdown timer</title>
+  <link rel="stylesheet" href="CSS/normalize.css">
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap" rel="stylesheet">
+  <!-- favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon-16x16.png">
+  <link rel="manifest" href="imgs/site.webmanifest">
+</head>
+
+<body>
+  <div class="app overflow-hidden position-relative">
+    <div class="container position-relative w-100 h-100 d-flex justify-content-between flex-column">
+      <h4 class="text-white text-center text-uppercase d-flex justify-content-center align-items-center align-items-lg-end
+      mb-sm-0 h-25">we're
+        launching soon</h4>
+      <div class="counter d-flex align-items-start justify-content-center h-75 
+      mt-lg-5 pt-lg-5 flex-lg-row flex-md-row flex-sm-column
+        flex-lg-nowrap flex-wrap pb-5 mb-5">
+        <div class="days box  ms-auto ms-lg-0 me-lg-5 " data-name="days">
+          <div class="first"></div>
+          <div class="num"></div>
+          <span></span>
+          <div class="second"></div>
+        </div>
+        <div class="hours box ms-auto me-auto me-lg-5 ms-lg-0" data-name="hours">
+          <div class="first "></div>
+          <div class="num"></div>
+          <span></span>
+          <div class="second"></div>
+        </div>
+        <div class="mins box ms-auto me-auto ms-lg-0 me-lg-5 mb-5" data-name="minutes">
+          <div class="first"></div>
+          <div class="num "></div>
+          <span></span>
+          <div class="second"></div>
+        </div>
+        <div class="secs box ms-auto ms-lg-0 me-auto mb-5 me-lg-5 " data-name="seconds">
+          <div class="first seconds"></div>
+          <div class="num"></div>
+          <span></span>
+          <div class="second"></div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="footer"></div>
+  </div>
+  <script src="js/all.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
